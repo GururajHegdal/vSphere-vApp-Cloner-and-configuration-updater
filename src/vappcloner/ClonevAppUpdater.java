@@ -204,7 +204,7 @@ public class ClonevAppUpdater {
                 ManagedEntity[] allHosts = retrieveHosts();
 
                 if (allHosts.length > 1) {
-                    System.out.println("Found more than one host in inventory, chosing target host for vApp Clone");
+                    System.out.println("Found more than one host in inventory, choosing target host for vApp Clone");
 
                     for (ManagedEntity tempHostMe : allHosts) {
                         if (!tempHostMe.getName().equals(srcHostName)) {
